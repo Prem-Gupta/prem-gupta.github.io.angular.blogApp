@@ -15,7 +15,7 @@ export class BlogHttpService {
   public allBlogs;
   public currentBlog;
   public baseUrl = 'https://blogapp.edwisor.com/api/v1/blogs';
-  public key = 'OTkyNjFmYTczNmE2MzAwNzZhNmI0NTFkOGU3MjQyZjk1OWI5M2JkNDgwZDFjODFlOWQ3MjJmNmU5NGYxMDA2MTkzOGQ0MjU2MTZlMjc1MTUwNjUzYjU3YzdiOTczODQ1MzAyMDE0NTZiNzg4NWZhNzlmZTIzOTU1NjVlMjUyN2VlNA'
+  public key = 'MzQzNGQ5MDg5NjkwODZkMmFjOTEzODU5NGU3Zjc0MDgyNzczMTBhYTE2YzZkZTg3MDYxZWE3MGEzMjVjNzA3ODBkMTI0MDdiZWI2Nzc0MTlkMTU5YTQ4NjE2NjdhOTA5ZWQzY2E5ZmMzMzJiZTc5MTY4MDgyMTQxNmIwNWRkYjhmOQ=='
 
   constructor(private _http: HttpClient) { }
 
